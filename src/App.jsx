@@ -1,13 +1,10 @@
-import Button from "./components/Button";
+import Navbar from "./components/Navbar";
 
 function App() {
   return (
-    <div className="space-y-4 p-8">
-      <Button href="#plans">Primary</Button>
-      <Button href="#plans" variant="accent">
-        Accent
-      </Button>
-    </div>
+    <>
+      <Navbar />
+    </>
   );
 }
 
